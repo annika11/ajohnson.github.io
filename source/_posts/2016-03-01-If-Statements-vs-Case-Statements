@@ -1,0 +1,29 @@
+In ruby, we have used If Statements to decide which of two outcomes will happen based on an original statement (If). If Statements are always paired with an “else” to provide an alternate outcome if the “if” is false (If). An example of an If Statement is:
+	if temperature > 70.00
+ 	  puts "I'm going to the pool!"
+	else
+  	 puts "I'm staying inside"
+	end 
+If Statements are similar to “if, then” statements that many people use in everyday life. It’s fairly common to hear someone say something like “If there is a blueberry muffin, get me one” or “If it rains tomorrow, we should see a movie”  or “If you help me with my homework, I will give you chocolate” or many, many other everyday circumstances. Each of these statements implies that if the action after the “If” is not done, the second clause will not happen. If there is not a blueberry muffin, the person does not want one. If it does not rain, they will not go see a movie. If the friend does not help another person with their homework, they will not be repaid with chocolate. If Statements in ruby identify what to do if the “If” portion of the statement is false. They are often used quantitatively to make it easy for terminal to determine what should be done based on the size of the value (Midwire). If Statements are always faster than Case Statements (Midwire). 
+	Case Statements include more than two values (How). If Statements are pretty straightforward, if it is not x, then it is y. Case Statements can include more values (How). Like If Statements, Case Statements will only return one object, but it has more options to choose from. An example of a Case Statement would be:
+	print "temperature in Chicago"
+	temperature = gets.chomp
+	case temperature
+	when "80"
+	  puts 'Let’s go swimming!'
+	when "50"
+	  puts 'Let’s go out, but bring a sweater!'
+	when "20"
+	  puts 'Let’s got to a movie!'
+	else
+	  puts "I’m going to sleep"
+	end
+As seen in this example of a Case Statement, more inputs and outputs can be added (How). These statements are not as black and white. Continuing with some examples talked about previously, this is more applicable to someone saying “If there are  blueberry muffins, get me one. If there are chocolate muffins, get me one. If there are banana nut muffins, get me one. If there are not any of these flavors, I do not want a muffin.” Case Statements are often more detailed, but organized (Midwire). There are more values to include, but can be beneficial especially when sorting through a range of values. Because they include more values, they do take longer to execute (Midwire). 
+
+
+"How A Ruby Case Statement Works And What You Can Do With It." SKORKS. N.p., 24 Aug. 2009. Web. 01 Mar. 2016.
+
+"If and Else." The Bastards Book of Ruby. N.p., n.d. Web. 01 Mar. 2016.
+
+"Midwire." Ruby Performance : Case vs. If-elsif -. N.p., n.d. Web. 01 Mar. 2016.
+
